@@ -1,6 +1,7 @@
-var portNumber = process.env.PORT || 3000;
+
 var express = require('express');
 	var app = express();
+var portNumber = process.env.PORT || 3000;
 
 // app.get('/', function(req, res){
 // 	res.send("hello usman");
